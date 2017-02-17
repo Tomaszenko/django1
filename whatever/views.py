@@ -4,4 +4,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def hello(request):
-    return HttpResponse("Hello world!")
+    return render(request, 'home.html')
+
+def translate(request):
+    return HttpResponse('You are on the translation page')
