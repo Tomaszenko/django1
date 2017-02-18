@@ -3,3 +3,7 @@
     background-color: magenta;
     color: black;
 }
+
+.nav {
+   display: inline-block;
+}
